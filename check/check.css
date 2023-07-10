@@ -1,0 +1,76 @@
+.container {
+  background-image: url('../check/unnamed.jpg');
+  background-size: cover;
+  background-position: fullscreen;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: rgba(224, 222, 113, 0.8);
+  padding:60px;
+  border-radius: 4px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: -25px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  width: 40%;
+  padding: 5px;
+  background-color: rgba(98, 174, 209, 0.8);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  border-color: #b09ae4;
+}
+
+input[type="checkbox"] {
+  
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    color: #fdfdfd;
+    transition: background-color 0.3s;
+  }
+
+  input[type="checkbox"]:checked {
+    background-color: #026806;
+    border-color: #f5f7f5;
+  }
+ 
+  input[type="checkbox"]:hover {
+    border-color: #f4f2f2;
+  }
