@@ -1,0 +1,55 @@
+.container {
+    background-image: url(../input_ty/hhh.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    width: 300px;
+    height: 450px;
+    margin: 100px;
+    padding: 20px;
+    background-color: #9bd9e5;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  textarea {
+    width: 90%;
+    height: 150px;
+    resize: vertical;
+  
+  }
+
+  input[type="email"],
+  input[type="text"]{
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
