@@ -1,0 +1,57 @@
+.container {
+    background-image: url(../read_o/read.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    width: 300px;
+    padding: 20px;
+    background-color: #c7e240;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: rgb(242, 126, 126);
+    background-color: #41d0e3;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #f3d647;
+    color: rgb(181, 237, 229);
+    cursor: not-allowed;
+    margin: 5px;
+  }
+  
+  input[readonly] {
+    background-color: #f2f2f2;
+    cursor: not-allowed;
+  }
