@@ -1,0 +1,52 @@
+.container {
+  background-image: url('../reg/reg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: rgba(89, 74, 225, 0.8);
+  padding:60px;
+  border-radius: 4px;
+}
+
+h1{
+  text-align: center;
+  margin-top: -25px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
