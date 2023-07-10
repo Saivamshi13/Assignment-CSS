@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+  
+  <div class="container">
+  
+    <form>
+      <h1>Survey Form</h1>
+      <details>
+        <summary>Personal Information</summary>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="Date">DOB:</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+      </details>
+      
+      <details>
+        <summary>Favorite Bike</summary>
+        <div class="form-group">
+          <label for="color">Select your favorite Bike:</label>
+          <select id="color" name="color" required>
+            <option value="">-- Select --</option>
+            <option value="red">Ducati</option>
+            <option value="green">Pulsar</option>
+            <option value="blue">Duke</option>
+            <option value="blue">Kawasaki</option>
+            <option value="blue">Dominar</option>
+          </select>
+        </div>
+      </details>
+      
+      <details>
+        <summary>Gender</summary>
+        <div class="form-group">
+          <label for="gender-male">
+            <input type="radio" id="gender-male" name="gender" value="male">
+            Male
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="gender-female">
+            <input type="radio" id="gender-female" name="gender" value="female">
+            Female
+          </label>
+        </div>
+      </details>
+      
+      <details>
+        <summary>Hobbies</summary>
+        <div class="form-group">
+          <label for="hobby1">
+            <input type="checkbox" id="hobby1" name="hobbies" value="reading">
+            Comic
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="hobby2">
+            <input type="checkbox" id="hobby2" name="hobbies" value="music">
+            Music
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="hobby3">
+            <input type="checkbox" id="hobby3" name="hobbies" value="sports">
+            Anime
+          </label>
+        </div>
+      </details>
+      
+      <details>
+        <summary>FeedBack</summary>
+        <div class="form-group">
+          <label for="comments">FeedBack:</label>
+          <textarea id="comments" name="comments" optional></textarea>
+        </div>
+      </details>
+      
+      <div class="form-group">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
