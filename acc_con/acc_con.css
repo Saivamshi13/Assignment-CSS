@@ -1,0 +1,65 @@
+.container {
+    background-image: url(../acc_con/registration.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    width: 300px;
+    padding: 20px;
+    background-color: #df5c8c;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  input[type="checkbox"] {
+    /* Remove background color */
+    background-color: transparent;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: white;
+    background-color: #41e83e;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #f3d647;
+    color: rgb(181, 237, 229);
+    cursor: pointer;
+    margin: 5px;
+  }
+  
